@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar{
+    background-color: #1f2937;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: #f9fAf9;
+    background-color: #1f2937;
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    list-style-type: none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8
+}
+.this{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 100px;
+    color: #fff;
+    align-items: center;
+}
+.box{
+    display: flex;
+    background-color: gray;
+    color:  #f9fAf9;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-basis: 400px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+.text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9fAf9;
+}
+.text p{
+    font-size: 18px;
+    color: gray
+}
+button{
+    width: 110px;
+    color: #fff;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+.some{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    font-size: 36px;
+    font-weight:900;
+    color: #1F2937;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.circle{
+    border: 3px solid   #3882F6;;
+    border-radius: 10px;
+    height: 180px;
+    width: 160px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 160px;
+    align-items: center;
+}
+.gri{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    width: 800px;
+    padding: 100px;
+    margin: 50px;
+    justify-content: center; 
+    align-items: flex-end;
+}
+.gri p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+
+}
+.mijloc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.boxblu{
+    display: flex;
+    background-color: #3882F6;;
+    color: gainsboro;
+    padding: 25px;
+    width: 600px;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+.boxblu h1{
+    color: white;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.sign{
+  border: 1px solid white;
+}
+.bottom{
+    background-color:#1f2937;
+    color: white;
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
